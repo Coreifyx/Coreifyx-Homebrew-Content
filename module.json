@@ -1,0 +1,44 @@
+{
+  "name": "pf2e-cores-homebrew",
+  "title": "Core's Homebrew Encounters",
+  "description": "A compendium containing creatures I created to throw at my friends.",
+  "author": "Coreifyx",
+  "version": "1.0",
+  "minimumCoreVersion": "9.269",
+  "compatibleCoreVersion": "9.269",
+  "packs": [
+  {
+      "label": "Core's Homebrew - Creatures",
+      "type": "Actor",
+      "name": "pf2e-cores-homebrew-creatures",
+      "path": "./packs/pf2e-cores-homebrew-creatures.db",
+      "system": "pf2e",
+      "package": "pf2e-cores-homebrew",
+      "private": false
+    },
+    {
+      "label": "Core's Homebrew - Effects",
+      "type": "Item",
+      "name": "pf2e-cores-homebrew-effects",
+      "path": "./packs/pf2e-cores-homebrew-effects.db",
+      "system": "pf2e",
+      "package": "pf2e-cores-homebrew",
+      "private": false
+    },
+    {
+      "label": "Core's Homebrew - Creature Abilities",
+      "type": "Item",
+      "name": "pf2e-cores-homebrew-creatures-abilities",
+      "path": "./packs/pf2e-cores-homebrew-creatures-abilities.db",
+      "system": "pf2e",
+      "package": "pf2e-cores-homebrew",
+      "private": false
+    }],
+  "system": [
+    "pf2e"
+  ],
+  "minimumSystemVersion": "3.13.0.11",
+  "url": "https://github.com/Coreifyx/Coreifyx-Homebrew-Content",
+  "manifest": "https://raw.githubusercontent.com/Coreifyx/Coreifyx-Homebrew-Content/master/module.json",
+  "download": "https://github.com/Coreifyx/Coreifyx-Homebrew-Content/archive/refs/heads/main.zip"
+}
